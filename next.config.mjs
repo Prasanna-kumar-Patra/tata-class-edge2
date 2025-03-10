@@ -7,6 +7,9 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/tata-class-edge2',
+  assetPrefix: '/tata-class-edge2/',
   eslint: {
     ignoreDuringBuilds: true,
   },
